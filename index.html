@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   
+    <div class="start-scr">
+           <span class="start-btn" > START</span>
+    </div>
+
+
+    <div class="info">
+        <div class="wrong">
+            Wrong : <span> </span>
+        </div>
+        <div class="match">
+            Match : <span> </span>
+        </div>
+    </div>
+
+
+    <div id="cards-container"></div>
+
+    <div class="play-again-scr hidden">
+        <div class="container">
+            <div class="win">you are win ^^</div>
+            <div class="play-again-btn" >Play again ?</div>
+        </div>
+    </div>
+
+    <audio id="fail" src="media/sounds/fail.wav"></audio>
+    <audio id="success" src="media/sounds/success.wav"></audio>
+    <audio id="flip" src="media/sounds/flip.wav"></audio>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
